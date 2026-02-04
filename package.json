@@ -1,0 +1,18 @@
+{
+    "name": "human-in-the-loop-orchestrator-root",
+    "version": "1.0.0",
+    "description": "Root script to run all services",
+    "scripts": {
+        "install:all": "npm install && cd backend/alert-ingestion-node && npm install && cd ../incident-orchestrator-node && npm install && cd ../../realtime/websocket-approval-hub && npm install && cd ../../frontend/angular-responder && npm install && cd ../react-analytics/react-analytics && npm install",
+        "dev": "concurrently \"npm:ingest\" \"npm:orch\" \"npm:ws\" \"npm:django\" \"npm:angular\" \"npm:react\" --kill-others --prefix-colors auto",
+        "ingest": "cd backend/alert-ingestion-node && npm start",
+        "orch": "cd backend/incident-orchestrator-node && npm start",
+        "ws": "cd realtime/websocket-approval-hub && npm start",
+        "django": "cd backend/recommendation-django && python manage.py runserver 8000",
+        "angular": "cd frontend/angular-responder && npm start",
+        "react": "cd frontend/react-analytics/react-analytics && npm run dev"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

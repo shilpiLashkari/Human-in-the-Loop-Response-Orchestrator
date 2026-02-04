@@ -32,12 +32,13 @@ import { MatButtonModule } from '@angular/material/button';
   styles: [`
     .app-container {
       min-height: 100vh;
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      background-color: #0a0a1a;
     }
 
     .modern-toolbar {
-      background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%) !important;
-      box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
+      background: rgba(10, 10, 26, 0.8) !important;
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
       padding: 0 !important;
       height: 70px !important;
     }
@@ -63,12 +64,12 @@ import { MatButtonModule } from '@angular/material/button';
       font-size: 32px;
       width: 32px;
       height: 32px;
-      color: white;
+      color: #6366f1;
     }
 
     .brand-text {
       font-size: 1.25rem;
-      font-weight: 700;
+      font-weight: 800;
       color: white;
       letter-spacing: -0.5px;
     }
@@ -83,11 +84,10 @@ import { MatButtonModule } from '@angular/material/button';
       display: flex;
       align-items: center;
       gap: 8px;
-      background: rgba(0, 0, 0, 0.5);
-      padding: 10px 20px;
-      border-radius: 24px;
-      backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.4);
+      background: rgba(16, 185, 129, 0.1);
+      padding: 8px 16px;
+      border-radius: 20px;
+      border: 1px solid rgba(16, 185, 129, 0.2);
     }
 
     .status-dot {
@@ -95,7 +95,8 @@ import { MatButtonModule } from '@angular/material/button';
       height: 8px;
       background: #10b981;
       border-radius: 50%;
-      animation: pulse 2s infinite;
+      box-shadow: 0 0 10px #10b981;
+      animation: pulse 2s infinite ease-in-out;
     }
 
     @keyframes pulse {
@@ -105,9 +106,9 @@ import { MatButtonModule } from '@angular/material/button';
     }
 
     .status-text {
-      color: white;
-      font-size: 0.93rem;
-      font-weight: 800;
+      color: #10b981;
+      font-size: 0.85rem;
+      font-weight: 700;
       letter-spacing: 0.5px;
       text-transform: uppercase;
     }

@@ -112,8 +112,8 @@ Human-in-the-loop-Response-Orchestrator/
     ./start-all.ps1
     ```
 3.  **Access:**
-    -   **Command Center:** [http://localhost:4200](http://localhost:4200)
-    -   **Intelligence Hub:** [http://localhost:5173](http://localhost:5173)
+    -   **Command Center (Angular):** [https://secure-command-center.netlify.app/](https://secure-command-center.netlify.app/)
+    -   **Intelligence Hub (React):** [https://human-in-the-loop-response-orchestrat.netlify.app/](https://human-in-the-loop-response-orchestrat.netlify.app/)
 
 ---
 *Built with ❤️ for the engineers who keep the world running.*

@@ -196,9 +196,10 @@ import { Subscription } from 'rxjs';
 
     .dashboard-title {
       font-size: 2.5rem;
-      font-weight: 700;
+      font-weight: 800;
       margin-bottom: 8px;
-      color: #a78bfa;
+      color: #ffffff;
+      letter-spacing: -0.5px;
     }
 
     .dashboard-subtitle {

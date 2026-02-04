@@ -113,7 +113,7 @@ Human-in-the-loop-Response-Orchestrator/
     ```
 3.  **Access:**
     -   **Command Center (Angular):** [https://secure-command-center.netlify.app/](https://secure-command-center.netlify.app/)
-    -   **Intelligence Hub (React):** [https://human-in-the-loop-response-orchestrat.netlify.app/](https://human-in-the-loop-response-orchestrat.netlify.app/)
+    -   **Intelligence Hub (React):** [https://operational-intelligence-hub.netlify.app/](https://operational-intelligence-hub.netlify.app/)
 
 ---
 *Built with ❤️ for the engineers who keep the world running.*

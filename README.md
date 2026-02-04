@@ -73,13 +73,13 @@ I split the UI into two specialized applications to maintain a clear "Separation
 - **Concept:** High-speed Virtual DOM.
 - **Functionality:** High-density analytics for real-time monitoring and holistic system insights.
 
-![Operational Intelligence Hub](./assets/images/operational_hub.png)
+![Operational Intelligence Hub](./assets/screenshots/hub.png)
 
 ### 2. Secure Command Center (Angular)
 - **Concept:** Robust DI & RxJS state management.
 - **Functionality:** The action layer where incidents are triaged and secure actions are triggered with a human click.
 
-![Secure Command Center](./assets/images/command_center.png)
+![Secure Command Center](./assets/screenshots/command.png)
 
 ---
 

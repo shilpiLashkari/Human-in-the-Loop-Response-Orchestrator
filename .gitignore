@@ -28,9 +28,10 @@ yarn-error.log*
 brain/
 *.webp
 *.png
-*.jpg
+!assets/screenshots/*.png
 !frontend/angular-responder/public/favicon.png
 !frontend/react-analytics/react-analytics/public/favicon.png
+*.jpg
 
 # System
 Thumbs.db
